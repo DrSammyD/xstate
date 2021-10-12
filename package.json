@@ -23,6 +23,7 @@
     "fix": "manypkg fix",
     "typecheck": "tsc",
     "test": "jest",
+    "watchtest": "jest --watch",
     "test:core": "jest packages/core",
     "typedoc": "cd ./packages/core && typedoc --excludePrivate --mode file --out ./api --target es6 --moduleResolution node ./src",
     "typedoc:publish": "npm run typedoc && gh-pages --dist ./packages/core/api --dest ./api",
